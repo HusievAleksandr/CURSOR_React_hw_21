@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CURSOR_React_hw_21/static/css/main.ee980879.css",
+    "main.js": "/CURSOR_React_hw_21/static/js/main.877349b8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/CURSOR_React_hw_21/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/CURSOR_React_hw_21/index.html",
+    "main.ee980879.css.map": "/CURSOR_React_hw_21/static/css/main.ee980879.css.map",
+    "main.877349b8.js.map": "/CURSOR_React_hw_21/static/js/main.877349b8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/CURSOR_React_hw_21/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee980879.css",
+    "static/js/main.877349b8.js"
+  ]
+}
