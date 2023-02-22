@@ -9,10 +9,10 @@ function App() {
 
   const linkUp = <><span className={stayle['questions']}>Forgot password?</span>
                 <Link onClick={linkReplacementIn} className={stayle['questions']} 
-                to="/registration">Don't have an account? Sing Up </Link></>,
+                to="/CURSOR_React_hw_21/registration">Don't have an account? Sing Up </Link></>,
 
         linkIn = <><Link onClick={linkReplacementUp} className={stayle['questions']}                 
-                    to="/">Alredy have an account? Sing In </Link></>;
+                    to="/CURSOR_React_hw_21/">Alredy have an account? Sing In </Link></>;
 
   const[linkOutput, setLinkOutput]= useState(linkUp);
 

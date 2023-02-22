@@ -8,8 +8,8 @@ const Routes = props => {
     return (
         <div>
             <ReactRouterRouts>
-                <Route path="/" element={<Entrance formButton={"SIGN IN"}/>} />            
-                <Route path="/registration" element={<Entrance formButton={"SIGN UP"}/>} />            
+                <Route path="/CURSOR_React_hw_21/" element={<Entrance formButton={"SIGN IN"}/>} />            
+                <Route path="/CURSOR_React_hw_21/registration" element={<Entrance formButton={"SIGN UP"}/>} />            
             </ReactRouterRouts>
         </div>
     );
