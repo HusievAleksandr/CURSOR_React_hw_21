@@ -14,10 +14,11 @@ function App() {
         linkIn = <><Link onClick={linkReplacementUp} className={stayle['questions']}                 
                     to="/CURSOR_React_hw_21/">Alredy have an account? Sing In </Link></>;
 
-  const[linkOutput, setLinkOutput]= useState(linkUp);
+  const[linkOutput, setLinkOutput]= useState(linkUp),
+       [sing, setSing]      =    useState('Sing in');
 
-  function linkReplacementIn() { setLinkOutput(linkIn)};
-  function linkReplacementUp() { setLinkOutput(linkUp)};
+  function linkReplacementIn() { setLinkOutput(linkIn); setSing('Sing up');};
+  function linkReplacementUp() { setLinkOutput(linkUp); setSing('Sing in');};
 
 
 
@@ -31,7 +32,7 @@ function App() {
       <div className={stayle['block']}>
                 <div className={stayle["form-group"]}>
                     <img className={stayle['logo']} src="https://cdn-icons-png.flaticon.com/512/565/565547.png" alt="lock"></img>
-                    <span>Sing in</span>
+                    <span>{sing}</span>
                 </div>
 
                 <form>
